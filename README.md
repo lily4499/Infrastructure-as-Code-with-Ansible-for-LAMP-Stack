@@ -347,11 +347,5 @@ ansible-playbook -i inventory/dev.ini playbook.yml --tags "web,db,php"
 
 ---
 
-## 🧩 Next Steps
 
-- [ ] Add testing support with Molecule or Testinfra
-- [ ] Encrypt credentials using Ansible Vault
-- [ ] Parameterize IPs and credentials using `group_vars`
-
----
 
